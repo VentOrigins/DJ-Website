@@ -1,0 +1,23 @@
+.btn {
+	height:50px;
+    width:50px;
+	background:    #3d85c6;
+	background:    -webkit-linear-gradient(#3d85c6, #073763);
+	background:    linear-gradient(#3d85c6, #073763);
+	border:        1px solid #00f;
+	border-radius: 5px;
+	color:         #fff;
+	display:       inline-block;
+	padding:       8px 20px;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+	opacity: 0.5;
+}
+
+.btn:focus {
+	outline:none;
+}
+
+.btn.clicked {
+    opacity: 1;
+}
